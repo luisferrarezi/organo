@@ -1,4 +1,6 @@
-# Nome do meu projeto Rápida descrição do objetivo de fazer esse projeto
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
