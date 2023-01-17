@@ -1,3 +1,21 @@
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Apenas um micro projeto de estudos de React com JavaScript**
+| :label: Tecnologias | JavaScript, React
+| :rocket: URL         | 
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--50wZvNu6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png#vitrinedev)
+
+## Detalhes do projeto
+
+Apenas um projeto focado nos estudos de React com JavaScript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

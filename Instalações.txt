@@ -1,0 +1,6 @@
+1 - Instalar o Nodejs mais recente.
+2 - No terminal
+    npx create-react-app nomeprojeto
+    git init
+    npx gitignore node
+    npx eslint --init
