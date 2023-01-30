@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Apenas um micro projeto de estudos de React com JavaScript**
 | :label: Tecnologias | JavaScript, React
-| :rocket: URL         | 
+| :rocket: URL         | [Link do projeto na web](https://organo-puce-rho.vercel.app/)
 | :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
