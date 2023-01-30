@@ -9,10 +9,11 @@ const ComboBox = (properties) =>{
   return (
     <div className='combobox'>
       <label>{properties.label}</label>
-      <select 
+      <select         
         required={properties.required}
         value={properties.value}
         onChange={onType}>
+        <option value=""></option>          
         {properties.itens.map((item) => <option key={item}>{item}</option>)}
       </select>
     </div>

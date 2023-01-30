@@ -7,15 +7,16 @@ const Team = (properties) =>{
   const corPrimaria = {borderColor: properties.corPrimaria};
 
   return (
-    <section className='time' style={corSecundaria}>
-      <h3 style={corPrimaria}>{properties.nome}</h3>
-      <div className='colaboradores'>
-        {properties.colaboradores.map(colaborador => <Colaborador key={colaborador.nome} 
-                                                                  nome={colaborador.nome}
-                                                                  cargo={colaborador.cargo}
-                                                                  imagem={colaborador.imagem}/>)}
-      </div>      
-    </section>
+    (properties.colaboradores.length > 0) &&
+      <section className='time' style={corSecundaria}>
+        <h3 style={corPrimaria}>{properties.nome}</h3>
+        <div className='colaboradores'>   
+          {properties.colaboradores.map(colaborador => <Colaborador key={colaborador.nome + properties.nome}
+                                                                    nome={colaborador.nome}
+                                                                    imagem={colaborador.imagem}
+                                                                    cargo={colaborador.cargo} />)}     
+        </div>      
+      </section>
   );
 }
 
