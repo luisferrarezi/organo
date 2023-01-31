@@ -27,8 +27,8 @@ const Form = (properties) =>{
   }
 
   return (
-    <section className='form'>
-      <form onSubmit={onSave}>
+    <section className='form-container'>
+      <form className='form' onSubmit={onSave}>
         <h2>Preencha os dados para criar o card do colaborador</h2>
         <TextField 
           required={true} 

@@ -4,7 +4,7 @@ import './Colaborador.css'
 const Colaborador = (properties) =>{  
   return (
     <div className='colaborador'>
-      <div className='cabecalho'>
+      <div className='cabecalho' style={{ backgroundColor: properties.corDeFundo }}>
         <img src={properties.imagem} alt={properties.nome}/>
       </div>
       <div className='rodape'>

@@ -3,18 +3,19 @@ import Colaborador from '../Colaborador';
 import './Team.css'
 
 const Team = (properties) =>{
-  const corSecundaria = {backgroundColor: properties.corSecundaria};
-  const corPrimaria = {borderColor: properties.corPrimaria};
+  const corSecundaria = {borderColor: properties.time.corSecundaria};
+  const corPrimaria = {backgroundColor: properties.time.corPrimaria};
 
   return (
     (properties.colaboradores.length > 0) &&
-      <section className='time' style={corSecundaria}>
-        <h3 style={corPrimaria}>{properties.nome}</h3>
+      <section className='time' style={corPrimaria}>
+        <h3 style={corSecundaria}>{properties.time.nome}</h3>
         <div className='colaboradores'>   
-          {properties.colaboradores.map(colaborador => <Colaborador key={colaborador.nome + properties.nome}
+          {properties.colaboradores.map((colaborador, indice) => <Colaborador key={indice}
                                                                     nome={colaborador.nome}
                                                                     imagem={colaborador.imagem}
-                                                                    cargo={colaborador.cargo} />)}     
+                                                                    cargo={colaborador.cargo} 
+                                                                    corDeFundo={properties.time.corSecundaria} />)}
         </div>      
       </section>
   );
